@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7128636b-09c8-4a40-8297-1a4f061a72ac)print("star of the night is Injected!")
+print("star of the night is Injected!")
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "star of the night",
     Text = "injected star of the night",
