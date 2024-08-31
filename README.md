@@ -16,3 +16,23 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 wait(0,1)
 wait(0.1)
   function printidentity() return print("Current identity is 4") end
+
+
+
+
+
+
+local function customHttpGet(url)
+    return HttpGet(url)
+end
+
+
+local function executeScript(url)
+    local scriptContent = customHttpGet(url)
+    loadstring(scriptContent)()
+end
+
+
+local function gameHttpGet(url)
+    return customHttpGet(url)
+end
