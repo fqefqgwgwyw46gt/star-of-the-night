@@ -2,7 +2,7 @@
 -- Bu proje MIT Lisansı altında lisanslanmıştır.
 -- Daha fazla bilgi için LICENSE dosyasına bakın.
 
-print("star of the night is Injected!")
+print("moosploit is Injected!")
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "moosploit",
     Text = "injected moosploit",
