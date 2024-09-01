@@ -1,3 +1,7 @@
+-- © 2024 Efe. Tüm hakları saklıdır.
+-- Bu proje MIT Lisansı altında lisanslanmıştır.
+-- Daha fazla bilgi için LICENSE dosyasına bakın.
+
 print("star of the night is Injected!")
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "star of the night",
@@ -16,5 +20,3 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 wait(0,1)
 wait(0.1)
   function printidentity() return print("Current identity is 4") end
-
-
