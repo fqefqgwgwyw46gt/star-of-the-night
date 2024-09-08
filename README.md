@@ -17,6 +17,3 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     Icon = "rbxassetid://18931391752",
     Duration = 7
 })
-wait(0,1)
-wait(0.1)
-  function printidentity() return print("Current identity is 4") end
